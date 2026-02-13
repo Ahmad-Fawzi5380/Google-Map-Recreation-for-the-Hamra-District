@@ -10,9 +10,10 @@ This project implements a pathfinding algorithm in Java that utilizes Dijkstra's
 ## Language and Data Structures
 - **Java**: The primary programming language used for this project
 - **Graph Data Structure**: Used to represent the locations and paths
+- **Priority Queue**: For efficient implementation of Dijkstra's algorithm
 
 ## Algorithm Details
-Dijkstra's algorithm is the algorythm used in this program. It takes the starting point provided by the user and from it determines the shortest path to all other points on the map. The program then returns the path to the destiation, also provided by the user.
+Dijkstra's algorithm is the algorithm used in this program. It takes the starting point provided by the user and from it determines the shortest path to all other points on the map. The program then returns the path to the destination, also provided by the user.
 
 ## How to Run
 Copy the code provided in the repository into any compiler.
