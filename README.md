@@ -1,43 +1,47 @@
-# Google Map Recreation for the Hamra District
+# Java Pathfinding Project using Dijkstra's Algorithm
 
-## Project Description
-This project aims to recreate the Google Maps functionalities for the Hamra District, providing users with an interactive platform to explore the area, find points of interest, and access various location-based services. The application harnesses the power of mapping libraries with a focus on user experience and information accessibility.
+## Overview
+This project implements a pathfinding algorithm in Java that utilizes Dijkstra's algorithm to find the shortest paths between a set of 33 locations in the Hamra District. The aim is to provide an efficient way to navigate through the area's interconnected points.
 
 ## Features
-- Interactive map interface with zoom and pan functionality.
-- Search functionality for locations and points of interest in the Hamra District.
-- Display of markers for restaurants, cafes, shops, and other attractions.
-- User reviews and ratings for featured locations.
-- Directions and route planning capabilities.
+- Calculates the shortest path between locations using Dijkstra's algorithm
+- Visual representation of the graph of locations
+- Easy-to-use interface for inputting starting and ending locations
+- Comprehensive logging for debugging and analysis
 
 ## Technologies
-- **Frontend:** HTML, CSS, JavaScript
-- **Mapping Library:** Leaflet.js / Google Maps API
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB / Firebase
+- **Java**: The primary programming language used for this project
+- **Graph Data Structure**: Used to represent the locations and paths
+- **JavaFX**: For creating interactive UI elements (if applicable)
+- **JUnit**: For unit testing the algorithm and functionalities
 
 ## Algorithm Details
-The project utilizes a combination of algorithms to optimize location searches and display:
-1. **Geospatial Queries:** Efficient algorithms to find nearby points of interest based on user location.
-2. **Route Optimization:** Algorithms to calculate the best routes between two locations considering traffic conditions and preferred travel modes.
-3. **User Rating System:** Implementation of algorithms for aggregate user ratings to provide reliable suggestions based on community feedback.
+Dijkstra's algorithm is a well-known algorithm for finding the shortest paths between nodes in a graph. In this project, we model the Hamra District with nodes representing locations and weighted edges representing the distances between them. The algorithm efficiently navigates through these nodes to determine the optimal path from a starting point to a destination.
 
-## Instructions to Run the Code
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Ahmad-Fawzi5380/Google-Map-Recreation-for-the-Hamra-District.git
-   cd Google-Map-Recreation-for-the-Hamra-District
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Set up environment variables:** Create a `.env` file and add your configuration details for the database and mapping API.
-4. **Run the application:**
-   ```bash
-   npm start
-   ```
-5. **Access the application:** Open your browser and go to `http://localhost:3000`. 
+## How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/Ahmad-Fawzi5380/Google-Map-Recreation-for-the-Hamra-District.git
+cd Google-Map-Recreation-for-the-Hamra-District
+```
+2. Ensure you have Java Development Kit (JDK) installed.
+3. Compile the Java files:
+```bash
+javac *.java
+```
+4. Run the application:
+```bash
+java Main
+```
 
-## License
-This project is licensed under the MIT License. For more details, please refer to the LICENSE file in the repository.
+## Code Structure
+- `src/`: Contains all source files
+- `lib/`: Any dependency libraries used, such as JUnit or JavaFX
+- `README.md`: This file
+
+## Author Information
+**Ahmad Fawzi**  
+GitHub: [Ahmad-Fawzi5380](https://github.com/Ahmad-Fawzi5380)  
+Email: your.email@example.com  
+
+Feel free to contact me for collaborations or questions regarding the project!
